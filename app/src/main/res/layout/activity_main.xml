@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/student"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/btn_phonebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "@string/phonebook"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btn_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "@string/message"/>
+</LinearLayout>

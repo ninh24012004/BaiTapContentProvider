@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BaiTapContentProvider</string>
+    <string name="student">Nguyễn Quang Ninh - 22115053122326</string>
+    <string name="phonebook">Danh bạ điện thoại</string>
+    <string name="message">Tin nhắn</string>
+    <string name="list_phonebook">Danh sách số điện thoại</string>
+    <string name="list_message">Danh sách tin nhắn</string>
+</resources>
